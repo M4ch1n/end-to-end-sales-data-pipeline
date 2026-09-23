@@ -12,6 +12,12 @@ The data lifecycle follows a modern on-premise to cloud architecture:
 
 2. **Exploratory Data Analysis (Python/Pandas):** Profiling and initial cleansing.
 
+<p align="center">
+  <img src="[images/eda_01_missing_values.png](https://github.com/user-attachments/assets/cd8fb5f0-beb7-4fe4-9013-02f3940f3bb9)" width="32%" />
+  <img src="[images/eda_02_price_anomalies.png](https://github.com/user-attachments/assets/53810c3b-7db5-4c5c-8373-f1b06a5c8201)" width="32%" />
+  <img src="[images/eda_03_future_dates.png](https://github.com/user-attachments/assets/7240e074-0b6a-44e0-bc4c-e759bec72a54)" width="32%" />
+</p>
+
 3. **Data Engineering (Apache Hop):** Built ETL pipelines to clean data and conform it into a Star Schema.
 
 4. **Data Warehouse (SQLite):** Stored the transformed data in a dimensional model (Fact and Dimension tables).
