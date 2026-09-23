@@ -84,7 +84,7 @@ The raw data deliberately included several data quality issues (Easter Eggs) to 
 Visual anomalies (like "Null" product categories intentionally left to simulate real-world messy data) were handled directly in the BI Semantic Layer (Looker Studio filter exclusions).
 
 ## 🚀 How to Run this Project
-
+(All the files are added for quick viewing, but if you want to run the project, follow the next steps)
 1. Run `01_data_generator.py` to generate the raw CSV files.
 
 2. Run `02_eda_profiling.py` to view the data distributions.
