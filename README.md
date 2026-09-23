@@ -32,15 +32,13 @@ The data lifecycle follows a modern on-premise to cloud architecture:
 
 This dashboard features a complete Star Schema, a custom DAX Date Table for Time Intelligence, and advanced measures like a dynamic Pareto (80/20) calculation.
 
-
-*(Reemplaza el enlace de arriba con la ruta de tu screenshot de Power BI)*
+<img width="1408" height="793" alt="Captura de pantalla 2026-09-22 200458" src="https://github.com/user-attachments/assets/644e372b-ca0d-40fc-9772-ff237e6def0f" />
 
 ### 2. Looker Studio Cloud Report
 
 A web-focused dashboard utilizing a One-Big-Table (OBT) architecture, demonstrating cloud deployment capabilities and modern SaaS design.
 
-
-*(Reemplaza el enlace de arriba con la ruta de tu screenshot de Looker Studio)*
+<img width="1197" height="852" alt="Captura de pantalla 2026-09-22 185726" src="https://github.com/user-attachments/assets/27f327af-6036-46ef-9d0b-7bb7e134b3bf" />
 
 ## 📋 Business Questions Answered
 
