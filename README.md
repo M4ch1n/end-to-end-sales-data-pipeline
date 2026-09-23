@@ -20,9 +20,17 @@ The data lifecycle follows a modern on-premise to cloud architecture:
 
 3. **Data Engineering (Apache Hop):** Built ETL pipelines to clean data and conform it into a Star Schema.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/801a2a97-0f56-435f-a8db-3ee4a12d50b0" width="32%" />
+  <img src="https://github.com/user-attachments/assets/de903b88-5086-4801-9534-81c145ad1afc" width="32%" />
+  <img src="https://github.com/user-attachments/assets/af5da681-c8c4-49be-bf6f-9cb3b6178754" width="32%" />
+</p>
+
 4. **Data Warehouse (SQLite):** Stored the transformed data in a dimensional model (Fact and Dimension tables).
 
 5. **Data Quality & ETL Testing (Great Expectations):** Automated validation of business rules, referential integrity, and data types post-load.
+
+<img width="644" height="232" alt="Captura de pantalla 2026-08-04 190833" src="https://github.com/user-attachments/assets/69b4beed-c464-4edd-b40b-b88fa241edcd" />
 
 6. **Cloud Export (Python):** Flattened the Star Schema into a One Big Table (OBT) for cloud BI consumption.
 
